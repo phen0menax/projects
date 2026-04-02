@@ -4,7 +4,7 @@ import pandas as pd
 # Load the data from the text file
 @st.cache_data
 def load_data():
-    df = pd.read_csv("data.txt")
+    df = pd.read_csv("https://github.com/phen0menax/projects/blob/main/app1/data.txt")
     df.columns = df.columns.str.strip()
     return df
 
